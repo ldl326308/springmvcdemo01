@@ -1,0 +1,4 @@
+    1、注解@ControllerAdvice声明一个控制器建言，此注解组合了@Component注解，自动注册为Spring的Bean
+    2、@ExceptionHandler 在此处定义为全局处理，value值定义过滤条件，在这里拦截所有Exception
+    3、@InitBinder 此注解定制WebDataBinder
+    注：案例涉及的类：ExceptionHandlerAdvice（定义控制器建言），AdviceController（测试）

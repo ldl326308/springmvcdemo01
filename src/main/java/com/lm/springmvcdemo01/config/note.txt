@@ -1,0 +1,6 @@
+实现配置类配置SpringMVC
+    1、继承WebMvcConfigurationSupport类，重新需要的方法，注意：不能在改类加注解@EnableWebMvc，
+        此注解会引入DelegatingWebMvcConfiguration类，此类继承于WebMvcConfigurationSupport类，
+        如果同时使用会有问题
+
+    2、实现接口WebMvcConfigurer

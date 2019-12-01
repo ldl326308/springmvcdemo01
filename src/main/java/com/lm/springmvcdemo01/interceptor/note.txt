@@ -1,0 +1,6 @@
+拦截器定义
+    1、继承HandlerInterceptorAdapter，实现其方法
+        preHandle：请求发生前执行
+        postHandle：请求完成后执行
+
+    注意：自定义拦截器在Spring中注册为Bean，并通过Mvc配置类的addInterceptors方法注册
